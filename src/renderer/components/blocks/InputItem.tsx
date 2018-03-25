@@ -71,7 +71,7 @@ class InputItem extends React.Component<IInputItemProps, IInputItemState> {
                 theme={this.props.theme} />;
 
         return (
-            <HotKeys handlers={this.handlers}>
+            <HotKeys keyMap={{}} handlers={this.handlers}>
                 <div className="Item InputItem">
                     {icon}
                     <input type="text"

@@ -67,7 +67,7 @@ class DirectoryWrapper extends React.Component<IDirectoryWrapperProps, IDirector
             display: this.state.isTerminalOpen ? "block" : "none"
         };
 
-        return <HotKeys handlers={this.handlers} className="HotKeys">
+        return <HotKeys keyMap={{}} handlers={this.handlers} className="HotKeys">
             <div className="DirectoryWrapper">
                 <PathPanel path={this.state.path} theme={this.props.theme} />
                 <div className="splitPaneWrapper">

@@ -71,6 +71,7 @@ class DirectoryItem extends React.PureComponent<IDirectoryItemProps> {
         };
 
         return <HotKeys
+            keyMap={{}}
             handlers={this.handlers}
             ref={component => component && isSelected && Utils.autoFocus(component)}>
             <div

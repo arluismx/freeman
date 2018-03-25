@@ -246,6 +246,7 @@ class DirectoryList extends React.Component<IDirectoryListProps, IDirectoryListS
         return (
             <div className="DirectoryList">
                 <HotKeys
+                    keyMap={{}}
                     handlers={this.handlers}
                     ref={component => {
                         this.keysTrapper = component;
